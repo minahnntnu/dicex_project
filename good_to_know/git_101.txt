@@ -1,5 +1,9 @@
+git clone $ADRESS_copied_from_github
+- to clone the github folders onto your computer
+
 git status
 - used to see the status of you repository, if you are up to date or if you have done changes that needs to be committed
+- you need to be in the git folder for this to work
 
 git checkout $BRANCH
 - to change the branch you are on
