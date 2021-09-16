@@ -5,3 +5,11 @@ git checkout $BRANCH
 - to change the branch you are on
 - make sure to never work in the main branch
 
+git add
+- to add the files you want to commit
+
+git commit - "you message here"
+- to commit to the changes that has been done
+
+git push 
+- to send the changes to github
