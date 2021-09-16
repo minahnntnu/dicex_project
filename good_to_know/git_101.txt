@@ -1,0 +1,7 @@
+git status
+- used to see the status of you repository, if you are up to date or if you have done changes that needs to be committed
+
+git checkout $BRANCH
+- to change the branch you are on
+- make sure to never work in the main branch
+
