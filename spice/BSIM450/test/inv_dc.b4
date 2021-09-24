@@ -1,0 +1,22 @@
+** MOSFET Inverter (DC): Benchmarking Implementation of BSIM4 by Jane Xi 05/09/2003.
+
+*** circuit description ***
+m10 out in 0 0 n1 L=0.18u W=10.0u rgeoMod=1
+m20 out in d d p1 L=0.18u W=10.0u rgeoMod=1
+Vd d 0 dc 2.0
+vin in 0 0.0
+.dc vin 0 2.0 0.05
+
+*.tran 0 20ns 0.01ns
+
+.option reltol=1e-5
+.print dc v(in) v(out)
+
+.include modelcard.nmos
+.include modelcard.pmos
+.end
+
+
+
+
+

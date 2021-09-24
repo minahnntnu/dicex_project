@@ -1,0 +1,47 @@
+Dear BSIM Users,
+ 
+Thank you for your support of the BSIM models. We are releasing BSIM4.5.0 
+version  today (July 29, 2005). 
+ 
+Compared with BSIM4.4.0, several new features are added in this version.
+ 
+1. A mobility model which accounts for Coulombic scattering and 
+the channel length dependence of mobility due to heavy halo-doping; 
+ 
+2. A scalable substrate resistance model (rbodyMod = 2) that is scalable with 
+channel length, channel width and number of fingers; 
+ 
+3. Gate resistance parameters XGW, NGCON that can now be specified as 
+instance parameters;
+ 
+4. Improved temperature dependence of model parameters VOFF, VFBSDOFF;
+ 
+5. Enhanced tempMod = 2, where Vth(DITS) and gate tunneling models are functions 
+of nominal temperature and the temperature dependence of flat-band voltage is added;
+ 
+6. A new instance parameter DELVTO representing threshold voltage variation;
+ 
+7. An enhanced well-proximity effect model enabling some device parameters (Vth, U0, K2)
+to vary with distance from the edge of well-implantation mask due to ion-scattering;
+ 
+8. The full BSIM4 Vth model is implemented into the Igc equation which enables 
+accurate prediction of the Vbs dependence of Igc (and Ids in the low current regime).
+ 
+In addition, seven bug fixes and two improvements are implemented in this version. 
+The complete list of bugs and fixes and the users who reported them, the BSIM4.5.0 
+source code, BSIM4.5.0 user manual, BSIM4.5.0 document and testing examples can  
+be downloaded at:  http://www-device.eecs.berkeley.edu/~bsim3/bsim4_get.html
+ 
+BSIM4.5.0 received intensive evaluation by TI, TSMC, Renesas, Synopsys, IBM, 
+Analog Devices, and Cadence. Their testing materially improved the quality  
+of the present release. Special thanks go to Dr. Joe Watts, Dr. Keith Green, 
+and Dr. Peter Lee, for their guidance and technical support. We would also 
+like to express our sincere thanks to all the other users who gave us suggestions.  
+ 
+We thank you for your support for BSIM and welcome your feedback on this latest release
+of BSIM4.
+ 
+Sincerely,
+ 
+BSIM Team
+UC Berkeley
