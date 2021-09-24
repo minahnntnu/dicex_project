@@ -17,3 +17,6 @@ git commit - "you message here"
 
 git push 
 - to send the changes to github
+
+git pull origin main
+- to get up to date in main branch without loosing your work
