@@ -31,6 +31,8 @@
 *----------------------------------------------------------------
 .include ../../models/ptm_130_ngspice.spi
 .include ../../lib/SUN_TR_GF130N.spi
+.include 32nm_bulk.spi 
+***ADDED BY MINA
 
 *----------------------------------------------------------------
 * Options
@@ -96,7 +98,7 @@ XMNB0 VBN1 VBN1 VSS VSS NCHCM2
 *----------------------------------------------------------------
 * DUT
 *----------------------------------------------------------------
-.include pixelSensor.cir
+.include pixelSensor_1.cir
 XDUT VBN1 RAMP RESET ERASE EXPOSE READ
 + DATA_7 DATA_6 DATA_5 DATA_4 DATA_3 DATA_2 DATA_1 DATA_0 PIXEL_SENSOR
 
@@ -166,6 +168,14 @@ B2 DO 0 V = V(DO_VDD)/V(VDD)
 
 
 *----------------------------------------------------------------
+* Rphoto Model
+*----------------------------------------------------------------
+.SUBCKT RPHOTO 
+***MORE***
+* To model the photocurrent
+*Add a testbench for each suncircuit COMP SENSOR MEMCELL MEMORY
+
+*----------------------------------------------------------------
 * NGSPICE control
 *----------------------------------------------------------------
 
@@ -181,3 +191,4 @@ plot V(DO)
 
 .endc
 .end
+

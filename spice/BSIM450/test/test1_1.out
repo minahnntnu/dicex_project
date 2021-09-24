@@ -1,0 +1,30 @@
+Program: Spice, version: 3f5
+Date built: Fri Feb  9 11:00:48 PST 2001
+
+Circuit: ** NMOSFET: Benchmarking Implementation of BSIM4.3.0 by Jane Xi 05/09/2003.
+
+Spice 1 -> Spice 2 ->   ** NMOSFET: Benchmarking Implementation of BSIM4.3.0 by Jane Xi 05/09/2003.
+  DC transfer characteristic  Thu May  8 16:39:22  2003
+--------------------------------------------------------------------------------
+Index   sweep           i(vds)          
+--------------------------------------------------------------------------------
+0	0.000000e+00	1.872791e-11	
+1	2.000000e-02	-9.001794e-07	
+2	4.000000e-02	-1.300793e-06	
+3	6.000000e-02	-1.460933e-06	
+4	8.000000e-02	-1.539637e-06	
+5	1.000000e-01	-1.591861e-06	
+6	1.200000e-01	-1.634059e-06	
+7	1.400000e-01	-1.671767e-06	
+8	1.600000e-01	-1.707180e-06	
+9	1.800000e-01	-1.741302e-06	
+10	2.000000e-01	-1.774645e-06	
+11	2.200000e-01	-1.807497e-06	
+12	2.400000e-01	-1.840031e-06	
+13	2.600000e-01	-1.872356e-06	
+14	2.800000e-01	-1.904546e-06	
+	-- hit return for more, ? for help -- 
+Spice 3 -> Warning: the following plot hasn't been saved:
+dc1	** NMOSFET: Benchmarking Implementation of BSIM4.3.0 by Jane Xi 05/09/2003., DC transfer characteristic
+
+Are you sure you want to quit (yes)? Spice-3f5 done

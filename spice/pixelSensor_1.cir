@@ -30,3 +30,22 @@
 + DATA_7 DATA_6 DATA_5 DATA_4 DATA_3 DATA_2 DATA_1 DATA_0
 
 .ENDS
+
+*--------------------------------------------------------------
+* DESIGN
+* - Make the design from the paper fig. 4
+*--------------------------------------------------------------
+
+*Sensor
+.SUBCKT SENSOR RESET_V PIXEL_RESET TX RG 
+
+.ENDS
+
+*Comparator
+.SUBCKT COMP BIAS_2 BIAS_1 RAMP 
+.ENDS
+
+*8- bit memory
+.SUBCKT MEMORY DATA_I DATA_O READ 
+.ENDS
+
