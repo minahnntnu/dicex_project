@@ -1,0 +1,4 @@
+From pixel 1: 10101001
+From pixel 2: 10000110
+From pixel 3: 01100100
+From pixel 4: 01010010
